@@ -10,7 +10,51 @@ body {
     font-family: Helvetica, Arial, sans-serif;
 }
 
+/* COMMON */
+/* padding */
+.px-6 {
+    padding-right: 4.5rem;
+    padding-left: 4.5rem;
+}
+.px-7 {
+    padding-right: 6rem;
+    padding-left: 6rem;
+}
+.px-8 {
+    padding-right: 9rem;
+    padding-left: 9rem;
+}
+
+
+/* HEADER */
 .header {
     width: 100%;
-    background-color: pink;
+}
+
+.logo-sony {
+    display: inline-block;
+    width: 15%;
+}
+
+.logo-play {
+    display: inline-block;
+    width: 15%;
+}
+
+/* dropdown navbar */
+.angle-down {
+    display: inline-block;
+    width: .75rem;
+}
+
+.dropdown_angle::after {
+    display: inline-block;
+    content: url(../img/chevron-down-solid.svg);
+    width: .5rem;
+}
+
+.nav_link_my{
+    display: block;
+    text-decoration: none;
+    color: rgb(var(--textcolor-black));
 }
