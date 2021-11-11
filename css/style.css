@@ -1,0 +1,11 @@
+:root {
+    --textcolor-black: 0, 0, 0;
+    --textcolor-white: 255, 255, 255;
+    --textcolor-gray: 141, 139, 139;
+    --textcolor-blue: 0, 81, 255;
+}
+
+body {
+    font-size: 100%;
+    font-family: Helvetica, Arial, sans-serif;
+}
