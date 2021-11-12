@@ -5,6 +5,7 @@
     --textcolor-blue: 0, 81, 255;
     --bg-color-beige: 211, 211, 183;
     --bg-color-blue: 6, 6, 82;
+    --bg-color-lightblue: 0, 81, 255;
 }
 
 body {
@@ -20,6 +21,10 @@ body {
 
 .bg-blue {
     background-color: rgb(var(--bg-color-blue));
+}
+
+.bg-lightblue {
+    background-color: rgb(var(--bg-color-lightblue));
 }
 
 /* text */
@@ -179,4 +184,26 @@ body {
 /* JUMBOTRON PLAYSTATION NOW */
 .jumbo-playnow-p {
     color: rgb(var(--textcolor-white));
+}
+
+/* FOOTER */
+.footer .ps-logo {
+    width: 6rem;
+}
+
+.footer .globe {
+    width: 1rem;
+}
+
+.footer .foot-text {
+    font-size: .7rem;;
+    color: rgb(var(--textcolor-white));
+}
+
+.footer ul li a {
+    font-size: .7rem;
+}
+
+.footer .sie-logo {
+    width: 6rem;
 }
