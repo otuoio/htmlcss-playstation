@@ -27,6 +27,12 @@ body {
     color: rgb(var(--textcolor-gray));
 }
 
+.thumb-title {
+    font-size: .9rem;
+    color: rgb(var(--textcolor-gray));
+    font-weight: normal;
+}
+
 /* buttons */
 .btn-orange {
     background-color: orange;
@@ -125,3 +131,10 @@ body {
     background-repeat: no-repeat;
 }
 
+/* CAROUSEL TOOLS */
+
+@media screen and (min-width:768px) {
+    .col_md_five {
+        width: calc(100% / 5);
+    }
+}
