@@ -33,7 +33,7 @@ body {
 
 .logo-sony {
     display: inline-block;
-    width: 15%;
+    width: 10%;
 }
 
 .logo-play {
@@ -52,6 +52,21 @@ body {
     content: url(../img/chevron-down-solid.svg);
     width: .5rem;
 }
+/* .dropdown_angle_hover::after {
+    display: none;
+    content: url(../img/chevron-down-solid-hover.svg);
+    width: .5rem;
+} */
+/* .header .navbar .nav-item .dropdown_angle::after:hover {
+    display: none;
+    content: url(../img/chevron-down-solid.svg);
+    width: .5rem;
+}
+.header .navbar .nav-item .dropdown_angle_hover::after:hover {
+    display: inline-block;
+    content: url(../img/chevron-down-solid-hover.svg);
+    width: .5rem;
+} */
 
 .nav_link_my{
     display: block;
@@ -59,16 +74,11 @@ body {
     color: rgb(var(--textcolor-black));
 }
 
-.menu-inline.show {
-    display: flex;
-    flex-direction: column;
-    border-left: 0;
-    border-right: 0;
-    border-bottom: 0;
-    border-radius: 0;
-    min-width: 95%;
+.header .navbar-nav .nav-item .dropdown-menu li img {
+    display: block;
+    width: 3rem;
 }
 
-.menu-col {
-    border-bottom: 1px solid lightgray;
+.header .navbar-collapse .search {
+    width: 2rem;
 }
