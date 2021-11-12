@@ -4,6 +4,7 @@
     --textcolor-gray: 141, 139, 139;
     --textcolor-blue: 0, 81, 255;
     --bg-color-beige: 211, 211, 183;
+    --bg-color-blue: 6, 6, 82;
 }
 
 body {
@@ -16,6 +17,11 @@ body {
 .bg-beige {
     background-color: rgb(var(--bg-color-beige));
 }
+
+.bg-blue {
+    background-color: rgb(var(--bg-color-blue));
+}
+
 /* text */
 .banner-text {
     font-size: .8rem;
@@ -168,4 +174,9 @@ body {
 /* JUMBOTRON PLAYSTATION PLUS */
 .jumbo-plus-p {
     color: rgb(var(--textcolor-black));
+}
+
+/* JUMBOTRON PLAYSTATION NOW */
+.jumbo-playnow-p {
+    color: rgb(var(--textcolor-white));
 }
