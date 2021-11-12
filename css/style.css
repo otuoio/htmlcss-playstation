@@ -138,3 +138,11 @@ body {
         width: calc(100% / 5);
     }
 }
+
+/* JUMBOTRON IT TAKES TWO */
+.jumbo-it2 {
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
