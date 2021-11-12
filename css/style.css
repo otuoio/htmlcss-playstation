@@ -11,6 +11,23 @@ body {
 }
 
 /* COMMON */
+
+/* buttons */
+.btn-orange {
+    background-color: orange;
+    color: white;
+}
+/* margin */
+.mt-6 {
+    margin-top: 4.5rem;
+}
+.mt-7 {
+    margin-top: 6rem;
+}
+.mt-8 {
+    margin-top: 9rem;
+}
+
 /* padding */
 .px-6 {
     padding-right: 4.5rem;
@@ -25,7 +42,9 @@ body {
     padding-left: 9rem;
 }
 
-
+.pt-9 {
+    padding-top: 13.5rem;
+}
 /* HEADER */
 .header {
     width: 100%;
@@ -81,4 +100,12 @@ body {
 
 .header .navbar-collapse .search {
     width: 2rem;
+}
+
+/* JUMBOTRON RETURNAL */
+.jumbo-returnal {
+    background-image: url(../img/jumbo-bg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
