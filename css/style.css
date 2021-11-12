@@ -3,6 +3,7 @@
     --textcolor-white: 255, 255, 255;
     --textcolor-gray: 141, 139, 139;
     --textcolor-blue: 0, 81, 255;
+    --bg-color-beige: 211, 211, 183;
 }
 
 body {
@@ -11,6 +12,10 @@ body {
 }
 
 /* COMMON */
+/* bg colors */
+.bg-beige {
+    background-color: rgb(var(--bg-color-beige));
+}
 /* text */
 .banner-text {
     font-size: .8rem;
@@ -158,4 +163,9 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+}
+
+/* JUMBOTRON PLAYSTATION PLUS */
+.jumbo-plus-p {
+    color: rgb(var(--textcolor-black));
 }
