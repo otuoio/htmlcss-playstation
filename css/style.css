@@ -32,6 +32,19 @@ body {
     color: rgb(var(--textcolor-gray));
     font-weight: normal;
 }
+.tt-white {
+    color: rgb(var(--textcolor-white));
+}
+
+.carousel-title {
+    font-size: 1.5rem;
+    color: rgb(var(--textcolor-white));
+}
+
+.carousel-subtitle {
+    font-size: 1.2rem;
+    color: rgb(var(--textcolor-white));
+}
 
 /* buttons */
 .btn-orange {
