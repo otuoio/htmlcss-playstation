@@ -11,6 +11,21 @@ body {
 }
 
 /* COMMON */
+/* text */
+.banner-text {
+    font-size: .8rem;
+    color: rgb(var(--textcolor-blue));
+}
+
+.title {
+    font-size: 2.2rem;
+    color: rgb(var(--textcolor-black));
+}
+
+.subtitle {
+    font-size: 1rem;
+    color: rgb(var(--textcolor-gray));
+}
 
 /* buttons */
 .btn-orange {
