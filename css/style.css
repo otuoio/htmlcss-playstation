@@ -176,16 +176,40 @@ body {
 .thumb-hover:hover {
     cursor: pointer;
     margin-top: -1rem;
-    /* margin-bottom: 1rem; */
 }
+
+/* PLAY 5 SECTION */
+
+.btn-hover {
+    transition: all 1s;
+}
+.btn-hover:hover {
+    padding: 1px;
+    border: 1px solid blue;
+}
+
 /* CAROUSEL TOOLS */
 
 @media screen and (min-width:768px) {
     .col_md_five {
-        width: calc(100% / 5);
+        width: calc(100% / 6);
     }
 }
 
+.border-bottom-active {
+    border-bottom: 2px solid rgb(0, 60, 255);
+    cursor: pointer;
+}
+
+.thumb-tools img {
+    opacity: 0.7;
+    transition: all 1s;
+}
+
+.thumb-tools:hover img {
+    cursor: pointer;
+    opacity: 1;
+}
 /* JUMBOTRON IT TAKES TWO */
 .jumbo-it2 {
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
