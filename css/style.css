@@ -164,27 +164,6 @@ body {
     display: inline-block;
 }
 
-/* .dropdown_angle::after {
-    display: inline-block;
-    content: url(../img/chevron-down-solid.svg);
-    width: .5rem;
-} */
- /* .dropdown_angle_hover {
-    position: absolute;
-    top: 0;
-    left: 0;
-    display: none;
-    content: url(../img/chevron-down-solid-hover.svg);
-    width: .5rem;
-    transition: all 1s;
-}  */
- /* .header .navbar .nav-item .dropdown_angle::after:hover {
-    display: none;
-}
-.header .navbar .nav-item .dropdown_angle_hover::after:hover {
-    display: inline-block;
-} */
-
 .nav_link_my{
     display: block;
     text-decoration: none;
@@ -198,6 +177,10 @@ body {
 
 .header .navbar-collapse .search {
     width: 2rem;
+}
+
+.nav-item .break_position {
+    top:90%;
 }
 
 /* JUMBOTRON RETURNAL */
