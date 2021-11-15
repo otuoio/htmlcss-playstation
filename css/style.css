@@ -138,16 +138,37 @@ body {
 }
 
 /* dropdown navbar */
-.angle-down {
+.angle {
+    display: inline-block;
+    position: relative;
+}
+
+.angle_down {
     display: inline-block;
     width: .75rem;
 }
 
-.dropdown_angle::after {
+.angle_hover {
+    position: absolute;
+    top:0;
+    left: 0;
+    display: none;
+    width: .75rem;
+}
+
+.nav-item a:focus .angle_down {
+    visibility: hidden;
+}
+
+.nav-item a:focus .angle_hover {
+    display: inline-block;
+}
+
+/* .dropdown_angle::after {
     display: inline-block;
     content: url(../img/chevron-down-solid.svg);
     width: .5rem;
-}
+} */
  /* .dropdown_angle_hover {
     position: absolute;
     top: 0;
