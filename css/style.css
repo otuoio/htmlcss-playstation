@@ -121,20 +121,20 @@ body {
     content: url(../img/chevron-down-solid.svg);
     width: .5rem;
 }
-/* .dropdown_angle_hover::after {
+ /* .dropdown_angle_hover {
+    position: absolute;
+    top: 0;
+    left: 0;
     display: none;
     content: url(../img/chevron-down-solid-hover.svg);
     width: .5rem;
-} */
-/* .header .navbar .nav-item .dropdown_angle::after:hover {
+    transition: all 1s;
+}  */
+ /* .header .navbar .nav-item .dropdown_angle::after:hover {
     display: none;
-    content: url(../img/chevron-down-solid.svg);
-    width: .5rem;
 }
 .header .navbar .nav-item .dropdown_angle_hover::after:hover {
     display: inline-block;
-    content: url(../img/chevron-down-solid-hover.svg);
-    width: .5rem;
 } */
 
 .nav_link_my{
@@ -160,6 +160,24 @@ body {
     background-repeat: no-repeat;
 }
 
+/* CAROUSEL-GAME */
+.border-active {
+    border-radius: 10px;
+    border: 2px solid rgb(0, 60, 255);
+}
+
+.img-thumb {
+    border-radius: 10px;
+}
+
+.thumb-hover {
+    transition: all 1s;
+}
+.thumb-hover:hover {
+    cursor: pointer;
+    margin-top: -1rem;
+    /* margin-bottom: 1rem; */
+}
 /* CAROUSEL TOOLS */
 
 @media screen and (min-width:768px) {
