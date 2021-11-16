@@ -84,6 +84,13 @@ body {
     box-shadow: 0 0 0 2px rgb(var(--bg-color-blue)), 0 0 0 4px white;
 }
 
+.btn_dark_hover {
+    transition: all 0.5s;
+}
+.btn_dark_hover:hover {
+    box-shadow: 0 0 0 2px white, 0 0 0 4px black;
+}
+
 .btn_orange_hover {
     transition: all 0.5s;
 }
